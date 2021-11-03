@@ -8,6 +8,5 @@ pytest
 voila
 ipyvuetify
 voila-vuetify
-copy
 sklearn
 cv2
