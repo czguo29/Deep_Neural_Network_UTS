@@ -9,4 +9,4 @@ voila
 ipyvuetify
 voila-vuetify
 sklearn
-cv2
+opencv-python
