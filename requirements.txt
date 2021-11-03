@@ -1,0 +1,13 @@
+jupyterlab
+requests
+pandas
+textblob
+nltk
+plotly-express
+pytest
+voila
+ipyvuetify
+voila-vuetify
+copy
+sklearn
+cv2
