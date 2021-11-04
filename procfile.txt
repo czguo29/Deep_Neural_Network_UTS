@@ -1,1 +1,0 @@
-web: voila --port=$PORT --no-browser --enable_nbextensions=True Proyek_UTS_Deep_Neural_Network.ipynb
