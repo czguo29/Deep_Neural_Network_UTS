@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Mask Detection{% endblock %}
+
+{% block header %}{% endblock %}
+
+{% block workspace %}
+<home_body class="col-12">
+    <h1>Mask Detection Application</h1>
+        <!-- {% for photo in image %} 
+            <a target="_blank" href="{{ url_for('static', filename='img/' + image) }}"><img src="{{ url_for('static' , filename='img/' + image) }}" class="img-rounded" alt="Cinque Terre" width="304" height="236" ></a>
+        {% endfor %} -->
+    </form>
+
+    <div>
+        {% if predict %}
+            <p>You are:</p> {{ predict }}
+        {% endif %}
+    </div>
+
+    <form action="/" method="post">
+        <input type="submit" name="submit" value="Back">
+    </form>
+</home_body>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}
