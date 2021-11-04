@@ -7,6 +7,6 @@ plotly-express
 pytest
 voila
 ipyvuetify
-voila-vuetify
+gunicorn
 sklearn
 opencv-python
